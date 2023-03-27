@@ -143,13 +143,19 @@ body{
 
 .header .shopping-cart {
     position: absolute;
-    top: 110%; right: 2rem;
+    top: 110%; right: -110%;
     padding: 1rem;
     border-radius: .5rem;
     box-shadow: var(--box-shadow);
     width: 35rem;
     background: #fff;
 }
+
+.header .shopping-cart.active{
+    right: 2rem;
+    transition: .4s linear;
+}
+
 
 .header .shopping-cart .box{
     display: flex;
@@ -198,4 +204,8 @@ body{
     color: var(--black);
 }
 
-.header .shopping-cart 
+.header .shopping-cart .btn{
+    display: block;
+    text-align: center;
+    margin: 1rem;
+}

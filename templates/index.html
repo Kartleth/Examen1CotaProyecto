@@ -26,21 +26,52 @@
         </nav>
 
         <div class="icons">
-            <div class="fas fa-bars" id="menu-btn">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
 
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="Buscar aqui...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="shopping-cart">
+
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="/static/imagenes/bicicleta.png" alt="">
+                <div class="content">
+                    <h3>Bicicleta normal</h3>
+                    <span class="price">$100/-active</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
             </div>
 
-            <div class="fas fa-search" id="search-btn">
-                
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="/static/imagenes/bicicleta-electrica.png" alt="">
+                <div class="content">
+                    <h3>Bicicleta eléctrica</h3>
+                    <span class="Precio">$100/-active</span>
+                    <span class="Cantidad">qty : 1</span>
+                </div>
             </div>
 
-            <div class="fas fa-shopping-cart" id="cart-btn">
-                
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="/static/imagenes/triciclo.png" alt="">
+                <div class="content">
+                    <h3>Triciclo</h3>
+                    <span class="Precio">$100/-active</span>
+                    <span class="Cantidad">qty : 1</span>
+                </div>
             </div>
 
-            <div class="fas fa-user" id="login-btn">
-                
-            </div>
+            <div class="total"> total : $19.69/- </div>
+            <a href="#" class="btn">checkout</a>
+
         </div>
     </header>
 
