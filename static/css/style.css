@@ -348,17 +348,17 @@ section{
     width: 60rem;
 }
 
-.home .content h3{
-    color: var(--black);
+.home .content h3 {
+    color: #fff;
     font-size: 3rem;
 }
 
 .home .content h3 span{
-    color: var(--purple);
+    color: #6456ff;
 }
 
 .home .content p{
-    color: var(--light-color);
+    color: #fff;
     font-size: 1.7rem;
     padding: 1rem 0;
     line-height: 1.8;
@@ -380,8 +380,7 @@ section{
 }
 
 .features .box-container .box:hover{
-    outline: var(--outline-hover);
-    outline-offset: 0rem;
+    border: solid #5344f8 4px;
 }
 
 .features .box-container .box img{
@@ -422,8 +421,7 @@ section{
 }
 
 .products .product-slider .box:hover{
-    outline-offset: 0rem;
-    outline: var(--outline-hover);
+    border: solid #5344f8 4px;
 }
 
 .products .product-slider .box img{
@@ -465,8 +463,7 @@ section{
 }
 
 .categories .box-container .box:hover{
-    outline: var(--outline-hover);
-    outline-offset: 0rem;
+    border: solid #5344f8 4px;
 }
 
 .categories .box-container .box img{
@@ -486,12 +483,12 @@ section{
     padding: 1rem 0;
 }
 
-.review .reviwe-slider{
+.review .review-slider{
     padding:1rem;
 
 }
 
-.review .reviwe-slider .box{
+.review .review-slider .box {
     background: #fff;
     border-radius: .5rem;
     text-align: center;
@@ -503,8 +500,7 @@ section{
 }
 
 .review .review-slider .box:hover{
-    outline:var(--outline-hover);
-    outline-offset: 0rem;
+    border: solid #5344f8 4px;
 }
 
 .review .review-slider .box img{
@@ -667,5 +663,5 @@ section{
 
 .footer .box-container .box .payment-img{
     margin-top: 2rem;
-    height: 3rem;
+    height: 9rem;
 }

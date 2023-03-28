@@ -48,6 +48,7 @@ var swiper = new Swiper(".product-slider", {
         delay: 7500,
         disableOnInteraction: false,
     },
+    centeredSlides: true,
     breakpoints: {
         0: {
             slidesPerView: 1,
